@@ -1,0 +1,24 @@
+{
+	"name": "server1",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --exec ts-node index.ts"
+	},
+	"dependencies": {
+		"@prisma/client": "2.0.0",
+		"graphql-yoga": "^1.18.3",
+		"mysql": "^2.18.1",
+		"nodemon": "^2.0.4",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.5"
+	},
+	"devDependencies": {
+		"@prisma/cli": "2.0.0",
+		"babel-node": "^0.0.1-security",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-3": "^6.24.1"
+	}
+}

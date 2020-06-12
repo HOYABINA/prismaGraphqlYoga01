@@ -1,0 +1,27 @@
+type user {
+	id: Int!
+	name: String!
+	password: String!
+	useremail: String!
+}
+type Person {
+	id: Int!
+	name: String!
+	age: Int!
+	gender: String!
+}
+type Book {
+	title: String
+	author: String
+}
+type Query {
+	books: [Book]
+	hello(name: String): String!
+	people: [Person]!
+	person(id: Int!): Person
+	showAllUsers: [user]
+}
+type Mutation {
+	addPeople(name: String!, age: Int!, gender: String!): Person!
+	addUser(email: String!, name: String!, passwd: String!): user
+}
