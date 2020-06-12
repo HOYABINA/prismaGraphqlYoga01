@@ -8,7 +8,7 @@
 		"start": "nodemon --exec ts-node index.ts"
 	},
 	"dependencies": {
-		"@prisma/client": "2.0.0",
+		"@prisma/client": "^2.0.0",
 		"graphql-yoga": "^1.18.3",
 		"mysql": "^2.18.1",
 		"nodemon": "^2.0.4",
